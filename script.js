@@ -47,7 +47,7 @@ scene.add(directionalLight);
 // gltf loader
 let computer;
 const gltfLoader = new GLTFLoader();
-gltfLoader.load("./scene.gltf", (gltf) => {
+gltfLoader.load("./img/scene.gltf", (gltf) => {
   computer = gltf.scene;
   //   tv.scale.set(0.1, 0.1, 0.1);
   computer.scale.multiplyScalar(0.08);
